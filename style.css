@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Poiret+One&family=Roboto&family=Teko:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: url("/IMG/capa0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.logo-menu {
+   
+}
+
+.nav-bar {
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item {
+    font-family: 'Oswald', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.content {
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+
+}
+
+.calculator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.calculator-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px    ;
+}
+
+.main-tilte {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.description {
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color:#FFF2E7 ;
+}
+
+.form-style {
+    display: flex;flex-direction: column;
+    justify-content: space-around;
+    gap: 12px;
+    align-items: stretch;
+    align-content: stretch;
+    border: 1px solid cornsilk;
+    border-radius: 12px;
+    padding: 15px;
+    max-width: 700px;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+.form-options {
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+    color: #1a1716;
+    margin-bottom: 5px;
+   
+
+}
+
+.example {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color:#180e06 ;
+}
+
+input {
+    height: 30px;
+    border-radius: 8px;
+    border: 1px #fac463 solid;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2) ;
+}
+
+input:focus {
+    background: #ecd6ae ;
+}
+
+.calculate {
+    background-color: #fac463;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25) ;
+}
+
+.calculate:hover {
+    background: linear-gradient(68.15deg, #caa131 16.62%, #fac463 85.61%); );
+    color: white;
+}
+
+.ilustration {
+    height: 350px;
+    box-shadow: 2px #FFF2E7;
+}
+
+.advertising {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: stretch;
+    margin-top: 70px;
+    padding: 50px;
+    background-color: #fac463;
+    
+}
+
+.how-it-works {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    justify-content: space-around;
+}
+
+.secondary-title {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+
+}
+
+.text-content {
+    font-family: 'Roboto', sans-serif;
+    color: #FFF2E7;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
